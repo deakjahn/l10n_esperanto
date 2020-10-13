@@ -1,7 +1,6 @@
 name: l10n_esperanto
 description: Esperanto localization for Flutter.
 version: 1.0.0
-author: Gábor DEÁK JAHN
 homepage: https://github.com/deakjahn/l10n_esperanto
 
 environment:
