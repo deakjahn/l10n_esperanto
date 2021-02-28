@@ -11,15 +11,15 @@ import 'package:intl/intl.dart' as intl;
 class MaterialLocalizationsEo extends GlobalMaterialLocalizations {
   const MaterialLocalizationsEo({
     String localeName = 'eo',
-    @required intl.DateFormat fullYearFormat,
-    @required intl.DateFormat compactDateFormat,
-    @required intl.DateFormat shortDateFormat,
-    @required intl.DateFormat mediumDateFormat,
-    @required intl.DateFormat longDateFormat,
-    @required intl.DateFormat yearMonthFormat,
-    @required intl.DateFormat shortMonthDayFormat,
-    @required intl.NumberFormat decimalFormat,
-    @required intl.NumberFormat twoDigitZeroPaddedFormat,
+    required intl.DateFormat fullYearFormat,
+    required intl.DateFormat compactDateFormat,
+    required intl.DateFormat shortDateFormat,
+    required intl.DateFormat mediumDateFormat,
+    required intl.DateFormat longDateFormat,
+    required intl.DateFormat yearMonthFormat,
+    required intl.DateFormat shortMonthDayFormat,
+    required intl.NumberFormat decimalFormat,
+    required intl.NumberFormat twoDigitZeroPaddedFormat,
   }) : super(
           localeName: localeName,
           fullYearFormat: fullYearFormat,
@@ -135,16 +135,16 @@ class MaterialLocalizationsEo extends GlobalMaterialLocalizations {
   String get invalidTimeLabel => r'Nevalida tempo';
 
   @override
-  String get licensesPackageDetailTextFew => null;
+  String? get licensesPackageDetailTextFew => null;
 
   @override
-  String get licensesPackageDetailTextMany => null;
+  String? get licensesPackageDetailTextMany => null;
 
   @override
-  String get licensesPackageDetailTextOne => '1 licenco';
+  String? get licensesPackageDetailTextOne => '1 licenco';
 
   @override
-  String get licensesPackageDetailTextTwo => null;
+  String? get licensesPackageDetailTextTwo => null;
 
   @override
   String get licensesPackageDetailTextOther => r'$licenseCount licencoj';
@@ -198,16 +198,16 @@ class MaterialLocalizationsEo extends GlobalMaterialLocalizations {
   String get refreshIndicatorSemanticLabel => r'Refreŝigu';
 
   @override
-  String get remainingTextFieldCharacterCountFew => null;
+  String? get remainingTextFieldCharacterCountFew => null;
 
   @override
-  String get remainingTextFieldCharacterCountMany => null;
+  String? get remainingTextFieldCharacterCountMany => null;
 
   @override
-  String get remainingTextFieldCharacterCountOne => '1 karaktro restis';
+  String? get remainingTextFieldCharacterCountOne => '1 karaktro restis';
 
   @override
-  String get remainingTextFieldCharacterCountTwo => null;
+  String? get remainingTextFieldCharacterCountTwo => null;
 
   @override
   String get remainingTextFieldCharacterCountOther => r'$remainingCount karaktroj restis';
@@ -252,19 +252,19 @@ class MaterialLocalizationsEo extends GlobalMaterialLocalizations {
   String get selectYearSemanticsLabel => r'Elektu jaron';
 
   @override
-  String get selectedRowCountTitleFew => null;
+  String? get selectedRowCountTitleFew => null;
 
   @override
-  String get selectedRowCountTitleMany => null;
+  String? get selectedRowCountTitleMany => null;
 
   @override
   String get selectedRowCountTitleOther => r'$selectedRowCount elementoj selektitaj';
 
   @override
-  String get selectedRowCountTitleOne => r'1 elemento selektita';
+  String? get selectedRowCountTitleOne => r'1 elemento selektita';
 
   @override
-  String get selectedRowCountTitleTwo => null;
+  String? get selectedRowCountTitleTwo => null;
 
   @override
   String get selectedRowCountTitleZero => r'nenio selektita';

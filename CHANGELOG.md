@@ -1,3 +1,9 @@
+# Changelog
+
+## [2.0.0] - 2021-02-28
+
+* Null safety
+
 ## [1.0.1] - 2021-01-05
 
 * Intl dependency.
