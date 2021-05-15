@@ -316,6 +316,12 @@ class MaterialLocalizationsEo extends GlobalMaterialLocalizations {
 
   @override
   String get viewLicensesButtonLabel => r'LEGU LICENCOJN';
+
+  @override
+  String get firstPageTooltip => r'Unua paĝo';
+
+  @override
+  String get lastPageTooltip => r'Lasta paĝo';
 }
 
 class _MaterialLocalizationsEoDelegate extends LocalizationsDelegate<MaterialLocalizations> {
