@@ -2,6 +2,7 @@ library l10n_esperanto;
 
 import 'dart:async';
 
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -21,17 +22,17 @@ class MaterialLocalizationsEo extends GlobalMaterialLocalizations {
     required intl.NumberFormat decimalFormat,
     required intl.NumberFormat twoDigitZeroPaddedFormat,
   }) : super(
-          localeName: localeName,
-          fullYearFormat: fullYearFormat,
-          compactDateFormat: compactDateFormat,
-          shortDateFormat: shortDateFormat,
-          mediumDateFormat: mediumDateFormat,
-          longDateFormat: longDateFormat,
-          yearMonthFormat: yearMonthFormat,
-          shortMonthDayFormat: shortMonthDayFormat,
-          decimalFormat: decimalFormat,
-          twoDigitZeroPaddedFormat: twoDigitZeroPaddedFormat,
-        );
+    localeName: localeName,
+    fullYearFormat: fullYearFormat,
+    compactDateFormat: compactDateFormat,
+    shortDateFormat: shortDateFormat,
+    mediumDateFormat: mediumDateFormat,
+    longDateFormat: longDateFormat,
+    yearMonthFormat: yearMonthFormat,
+    shortMonthDayFormat: shortMonthDayFormat,
+    decimalFormat: decimalFormat,
+    twoDigitZeroPaddedFormat: twoDigitZeroPaddedFormat,
+  );
 
   static const LocalizationsDelegate<MaterialLocalizations> delegate = _MaterialLocalizationsEoDelegate();
 
@@ -291,7 +292,7 @@ class MaterialLocalizationsEo extends GlobalMaterialLocalizations {
   int get firstDayOfWeekIndex => 1;
 
   @override
-  String get timePickerDialHelpText => r'???';
+  String get timePickerDialHelpText => r'ELEKTU TEMPON';
 
   @override
   String get timePickerHourLabel => r'Horo';
@@ -352,4 +353,209 @@ class _MaterialLocalizationsEoDelegate extends LocalizationsDelegate<MaterialLoc
 
   @override
   bool shouldReload(_MaterialLocalizationsEoDelegate old) => false;
+}
+
+class CupertinoLocalizationsEo extends GlobalCupertinoLocalizations {
+  /// Create an instance of the translation bundle for Esperanto.
+  ///
+  /// For details on the meaning of the arguments, see [GlobalCupertinoLocalizations].
+  const CupertinoLocalizationsEo({
+    String localeName = 'eo',
+    required intl.DateFormat fullYearFormat,
+    required intl.DateFormat dayFormat,
+    required intl.DateFormat mediumDateFormat,
+    required intl.DateFormat singleDigitHourFormat,
+    required intl.DateFormat singleDigitMinuteFormat,
+    required intl.DateFormat doubleDigitMinuteFormat,
+    required intl.DateFormat singleDigitSecondFormat,
+    required intl.NumberFormat decimalFormat,
+  }) : super(
+    localeName: localeName,
+    fullYearFormat: fullYearFormat,
+    dayFormat: dayFormat,
+    mediumDateFormat: mediumDateFormat,
+    singleDigitHourFormat: singleDigitHourFormat,
+    singleDigitMinuteFormat: singleDigitMinuteFormat,
+    doubleDigitMinuteFormat: doubleDigitMinuteFormat,
+    singleDigitSecondFormat: singleDigitSecondFormat,
+    decimalFormat: decimalFormat,
+  );
+
+  static const LocalizationsDelegate<CupertinoLocalizations> delegate = _CupertinoLocalizationsEoDelegate();
+
+  final List<String> _months = const [
+    'Januaro',
+    'Februaro',
+    'Marto',
+    'Aprilo',
+    'Majo',
+    'Junio',
+    'Julio',
+    'Aŭgusto',
+    'Septembro',
+    'Oktobro',
+    'Novembro',
+    'Decembro'
+  ];
+
+  @override
+  String get alertDialogLabel => r'Averto';
+
+  @override
+  String get anteMeridiemAbbreviation => r'atm.';
+
+  @override
+  String get copyButtonLabel => r'KOPIU';
+
+  @override
+  String get cutButtonLabel => r'ELTRANĈU';
+
+  @override
+  String get datePickerDateOrderString => 'ymd';
+
+  @override
+  String get datePickerDateTimeOrderString => 'date_time_dayPeriod';
+
+  @override
+  String? get datePickerHourSemanticsLabelFew => null;
+
+  @override
+  String? get datePickerHourSemanticsLabelMany => null;
+
+  @override
+  String? get datePickerHourSemanticsLabelOne => r'$hour horo';
+
+  @override
+  String get datePickerHourSemanticsLabelOther => r'$hour horo';
+
+  @override
+  String? get datePickerHourSemanticsLabelTwo => null;
+
+  @override
+  String? get datePickerHourSemanticsLabelZero => null;
+
+  @override
+  String? get datePickerMinuteSemanticsLabelFew => null;
+
+  @override
+  String? get datePickerMinuteSemanticsLabelMany => null;
+
+  @override
+  String? get datePickerMinuteSemanticsLabelOne => '1 minuto';
+
+  @override
+  String get datePickerMinuteSemanticsLabelOther => r'$minute minuto';
+
+  @override
+  String? get datePickerMinuteSemanticsLabelTwo => null;
+
+  @override
+  String? get datePickerMinuteSemanticsLabelZero => null;
+
+  @override
+  String get modalBarrierDismissLabel => r'Forĵetu';
+
+  @override
+  String get pasteButtonLabel => r'ALGLUU';
+
+  @override
+  String get postMeridiemAbbreviation => r'ptm.';
+
+  @override
+  String get searchTextFieldPlaceholderLabel => 'Serĉu';
+
+  @override
+  String get selectAllButtonLabel => 'Elekti ĉiujn';
+
+  @override
+  String get tabSemanticsLabelRaw => r'Orelo $tabIndex de $tabCount';
+
+  @override
+  String? get timerPickerHourLabelFew => null;
+
+  @override
+  String? get timerPickerHourLabelMany => null;
+
+  @override
+  String? get timerPickerHourLabelOne => 'horo';
+
+  @override
+  String get timerPickerHourLabelOther => 'horo';
+
+  @override
+  String? get timerPickerHourLabelTwo => null;
+
+  @override
+  String? get timerPickerHourLabelZero => null;
+
+  @override
+  String? get timerPickerMinuteLabelFew => null;
+
+  @override
+  String? get timerPickerMinuteLabelMany => null;
+
+  @override
+  String? get timerPickerMinuteLabelOne => 'min.';
+
+  @override
+  String get timerPickerMinuteLabelOther => 'min.';
+
+  @override
+  String? get timerPickerMinuteLabelTwo => null;
+
+  @override
+  String? get timerPickerMinuteLabelZero => null;
+
+  @override
+  String? get timerPickerSecondLabelFew => null;
+
+  @override
+  String? get timerPickerSecondLabelMany => null;
+
+  @override
+  String? get timerPickerSecondLabelOne => 'sek.';
+
+  @override
+  String get timerPickerSecondLabelOther => 'sek.';
+
+  @override
+  String? get timerPickerSecondLabelTwo => null;
+
+  @override
+  String? get timerPickerSecondLabelZero => null;
+
+  @override
+  String get todayLabel => 'Hodiaŭ';
+
+  @override
+  String datePickerMonth(int monthIndex) => _months[monthIndex - 1];
+}
+
+class _CupertinoLocalizationsEoDelegate extends LocalizationsDelegate<CupertinoLocalizations> {
+  const _CupertinoLocalizationsEoDelegate();
+
+  @override
+  bool isSupported(Locale locale) => locale.languageCode == 'eo';
+
+  @override
+  Future<CupertinoLocalizations> load(Locale locale) async {
+    final String localeName = intl.Intl.canonicalizedLocale(locale.toString());
+    await intl.initializeDateFormatting(localeName, null);
+    return SynchronousFuture<CupertinoLocalizations>(
+      CupertinoLocalizationsEo(
+        localeName: localeName,
+        fullYearFormat: intl.DateFormat('y'),
+        mediumDateFormat: intl.DateFormat("EEE, d'a' MMM y"),
+        decimalFormat: intl.NumberFormat('#,##0.###'),
+        singleDigitMinuteFormat: intl.DateFormat('m'),
+        singleDigitHourFormat: intl.DateFormat('H'),
+        doubleDigitMinuteFormat: intl.DateFormat('mm'),
+        dayFormat: intl.DateFormat('d'),
+        singleDigitSecondFormat: intl.DateFormat('s'),
+      ),
+    );
+  }
+
+  @override
+  bool shouldReload(_CupertinoLocalizationsEoDelegate old) => false;
 }
