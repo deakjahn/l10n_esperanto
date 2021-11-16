@@ -16,6 +16,7 @@ Use it in your app:
         GlobalMaterialLocalizations.delegate,
         GlobalWidgetsLocalizations.delegate,
         MaterialLocalizationsEo.delegate,
+        CupertinoLocalizationsEo.delegate,
       ],
 
 Note that the order is important, start with the global ones.
