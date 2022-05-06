@@ -1,5 +1,9 @@
 # Changelog
 
+## [2.0.2] - 2022-05-06
+
+* Add Cupertino.
+
 ## [2.0.1] - 2021-05-15
 
 * New strings.
