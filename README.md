@@ -7,16 +7,31 @@ supported by Flutter). Your own app strings have to be handled by your own local
 
 Use it in your app:
 
-    MaterialApp(
-      supportedLocales: [
-        const Locale(...),
-        const Locale('eo'),
-      ],
-      localizationsDelegates: [
-        GlobalMaterialLocalizations.delegate,
-        GlobalWidgetsLocalizations.delegate,
-        MaterialLocalizationsEo.delegate,
-        CupertinoLocalizationsEo.delegate,
-      ],
+```dart
+MaterialApp(
+  supportedLocales: [
+    const Locale(...),
+    const Locale('eo'),
+  ],
+  localizationsDelegates: const [
+    GlobalMaterialLocalizations.delegate,
+    GlobalCupertinoLocalizations.delegate,
+    GlobalWidgetsLocalizations.delegate,
+    MaterialLocalizationsEo.delegate,
+    CupertinoLocalizationsEo.delegate,
+  ],
+```
 
-Note that the order is important, start with the global ones.
+If you use the standard Flutter internationalization in your app:
+
+```dart
+MaterialApp(
+  supportedLocales: AppLocalizations.supportedLocales,
+  localizationsDelegates: const [
+    ...AppLocalizations.localizationsDelegates,
+    MaterialLocalizationsEo.delegate,
+    CupertinoLocalizationsEo.delegate,
+  ],
+```
+
+Note that the order is important, always start with the global ones.
