@@ -6,7 +6,7 @@ supported by Flutter). Your own app strings have to be handled by your own local
 Otherwise, it will work just as expected for apps. Although no Android device has Esperanto as a system language,
 so the locale won't be selected automatically, you can use it as one of the languages available in your app.
 You can even make it the default language (not using English at all) and all devices will show your app
-in Esperanto.
+in Esperanto, unless another language is selected.
 
 ## Getting Started
 
