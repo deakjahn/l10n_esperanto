@@ -3,6 +3,11 @@
 Esperanto localization for Flutter. This will only localize the basic strings (just like with all the other languages
 supported by Flutter). Your own app strings have to be handled by your own localization, as per normal.
 
+Otherwise, it will work just as expected for apps. Although no Android device has Esperanto as a system language,
+so the locale won't be selected automatically, you can use it as one of the languages available in your app.
+You can even make it the default language (not using English at all) and all devices will show your app
+in Esperanto.
+
 ## Getting Started
 
 Use it in your app:
