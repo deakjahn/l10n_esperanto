@@ -323,6 +323,147 @@ class MaterialLocalizationsEo extends GlobalMaterialLocalizations {
 
   @override
   String get lastPageTooltip => r'Lasta paĝo';
+
+  @override
+  String get keyboardKeyAlt => r'Alt';
+
+  @override
+  String get keyboardKeyAltGraph => r'AltGr';
+
+  @override
+  String get keyboardKeyBackspace => r'Backspace';
+
+  @override
+  String get keyboardKeyCapsLock => r'Caps Lock';
+
+  @override
+  String get keyboardKeyChannelDown => r'Kanalo malsupren';
+
+  @override
+  String get keyboardKeyChannelUp => r'Kanalo supren';
+
+  @override
+  String get keyboardKeyControl => r'Ctrl';
+
+  @override
+  String get keyboardKeyDelete => r'Del';
+
+  @override
+  String get keyboardKeyEject => r'Elĵeti';
+
+  @override
+  String get keyboardKeyEnd => r'End';
+
+  @override
+  String get keyboardKeyEscape => r'Esc';
+
+  @override
+  String get keyboardKeyFn => r'Fn';
+
+  @override
+  String get keyboardKeyHome => r'Home';
+
+  @override
+  String get keyboardKeyInsert => r'Insert';
+
+  @override
+  String get keyboardKeyMeta => r'Meta';
+
+  @override
+  String get keyboardKeyMetaMacOs => r'Command';
+
+  @override
+  String get keyboardKeyMetaWindows => r'Win';
+
+  @override
+  String get keyboardKeyNumLock => r'Num Lock';
+
+  @override
+  String get keyboardKeyNumpad0 => r'Num 0';
+
+  @override
+  String get keyboardKeyNumpad1 => r'Num 1';
+
+  @override
+  String get keyboardKeyNumpad2 => r'Num 2';
+
+  @override
+  String get keyboardKeyNumpad3 => r'Num 3';
+
+  @override
+  String get keyboardKeyNumpad4 => r'Num 4';
+
+  @override
+  String get keyboardKeyNumpad5 => r'Num 5';
+
+  @override
+  String get keyboardKeyNumpad6 => r'Num 6';
+
+  @override
+  String get keyboardKeyNumpad7 => r'Num 7';
+
+  @override
+  String get keyboardKeyNumpad8 => r'Num 8';
+
+  @override
+  String get keyboardKeyNumpad9 => r'Num 9';
+
+  @override
+  String get keyboardKeyNumpadAdd => r'Num +';
+
+  @override
+  String get keyboardKeyNumpadComma => r'Num ,';
+
+  @override
+  String get keyboardKeyNumpadDecimal => r'Num .';
+
+  @override
+  String get keyboardKeyNumpadDivide => r'Num /';
+
+  @override
+  String get keyboardKeyNumpadEnter => r'Num Enter';
+
+  @override
+  String get keyboardKeyNumpadEqual => r'Num =';
+
+  @override
+  String get keyboardKeyNumpadMultiply => r'Num *';
+
+  @override
+  String get keyboardKeyNumpadParenLeft => r'Num (';
+
+  @override
+  String get keyboardKeyNumpadParenRight => r'Num )';
+
+  @override
+  String get keyboardKeyNumpadSubtract => r'Num -';
+
+  @override
+  String get keyboardKeyPageDown => r'PgDn';
+
+  @override
+  String get keyboardKeyPageUp => r'PgUp';
+
+  @override
+  String get keyboardKeyPower => r'Enŝalti';
+
+  @override
+  String get keyboardKeyPowerOff => r'Elŝalti';
+
+  @override
+  String get keyboardKeyPrintScreen => r'Print Screen';
+
+  @override
+  String get keyboardKeyScrollLock => r'Scroll Lock';
+
+  @override
+  String get keyboardKeySelect => r'Elektu';
+
+  @override
+  String get keyboardKeySpace => r'Spaco';
+
+  @override
+  String get menuBarMenuLabel => r'Menuo de menubreto';
 }
 
 class _MaterialLocalizationsEoDelegate extends LocalizationsDelegate<MaterialLocalizations> {

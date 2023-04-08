@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.0.3] - 2023-04-08
+
+* New strings.
+* Fix [#2](https://github.com/deakjahn/l10n_esperanto/issues/2).
+* Implement [#3](https://github.com/deakjahn/l10n_esperanto/pull/3).
+
 ## [2.0.2] - 2022-05-06
 
 * Add Cupertino.
