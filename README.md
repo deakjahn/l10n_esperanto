@@ -1,8 +1,8 @@
 # l10n_esperanto
 
 Esperanto localization for Flutter. This will only localize the basic strings (just like with all the other languages
-supported by Flutter) and the various date and time formats of the `intl` package. Your own app strings have to be
-handled by your own localization, as per normal.
+supported by Flutter) and the various date and time formats of the [`intl`](https://pub.dev/packages/intl) package.
+Your own app strings have to be handled by your own localization, as per normal.
 
 Otherwise, it will work just as expected for apps. Although no Android device has Esperanto as a system language,
 so the locale won't be selected automatically, you can use it as one of the languages available in your app.
