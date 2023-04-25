@@ -1,3 +1,5 @@
+library l10n_esperanto;
+
 import 'dart:async';
 
 import 'package:flutter/cupertino.dart';
@@ -178,6 +180,7 @@ class _CupertinoLocalizationsEoDelegate extends LocalizationsDelegate<CupertinoL
       symbols: intl.DateSymbols.deserializeFromMap(eoDateSymbols),
     );
     date_symbol.numberFormatSymbols[localeName] = eoNumberSymbols;
+    date_symbol.compactNumberSymbols[localeName] = eoCompactNumberSymbols;
 
     return SynchronousFuture<CupertinoLocalizations>(
       CupertinoLocalizationsEo(

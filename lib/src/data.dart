@@ -1,3 +1,5 @@
+library l10n_esperanto;
+
 import 'package:intl/number_symbols.dart';
 
 const eoDatePatterns = {
@@ -255,4 +257,49 @@ const eoNumberSymbols = NumberSymbols(
   PERCENT_PATTERN: '#,##0\u00A0%',
   CURRENCY_PATTERN: '\u00A4\u00A0#,##0.00',
   DEF_CURRENCY_CODE: '',
+);
+
+final eoCompactNumberSymbols = CompactNumberSymbols(
+  COMPACT_DECIMAL_SHORT_PATTERN: const {
+    3: '0\u00A0mil',
+    4: '00\u00A0mil',
+    5: '000\u00A0mil',
+    6: '0\u00A0mln',
+    7: '00\u00A0mln',
+    8: '000\u00A0mln',
+    9: '0\u00A0mrd',
+    10: '00\u00A0mrd',
+    11: '000\u00A0mrd',
+    12: '0\u00A0bln',
+    13: '00\u00A0bln',
+    14: '000\u00A0bln',
+  },
+  COMPACT_DECIMAL_LONG_PATTERN: {
+    3: '0 mil',
+    4: '00 mil',
+    5: '000 mil',
+    6: '0 miliono',
+    7: '00 miliono',
+    8: '000 miliono',
+    9: '0 miliardo',
+    10: '00 miliardo',
+    11: '000 miliardo',
+    12: '0 biliono',
+    13: '00 biliono',
+    14: '000 biliono',
+  },
+  COMPACT_DECIMAL_SHORT_CURRENCY_PATTERN: {
+    3: '\u00A4\u00A00m',
+    4: '\u00A4\u00A000m',
+    5: '\u00A4\u00A0000m',
+    6: '\u00A4\u00A00\u00A0mln.',
+    7: '\u00A4\u00A000\u00A0mln.',
+    8: '\u00A4\u00A0000\u00A0mln.',
+    9: '\u00A4\u00A00\u00A0mrd.',
+    10: '\u00A4\u00A000\u00A0mrd.',
+    11: '\u00A4\u00A0000\u00A0mrd.',
+    12: '\u00A4\u00A00\u00A0bln.',
+    13: '\u00A4\u00A000\u00A0bln.',
+    14: '\u00A4\u00A0000\u00A0bln.',
+  },
 );

@@ -1,3 +1,5 @@
+library l10n_esperanto;
+
 import 'dart:async';
 
 import 'package:flutter/foundation.dart';
@@ -473,6 +475,7 @@ class _MaterialLocalizationsEoDelegate extends LocalizationsDelegate<MaterialLoc
       symbols: intl.DateSymbols.deserializeFromMap(eoDateSymbols),
     );
     date_symbol.numberFormatSymbols[localeName] = eoNumberSymbols;
+    date_symbol.compactNumberSymbols[localeName] = eoCompactNumberSymbols;
 
     return SynchronousFuture<MaterialLocalizations>(
       MaterialLocalizationsEo(
