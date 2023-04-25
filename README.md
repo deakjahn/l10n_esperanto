@@ -28,13 +28,13 @@ MaterialApp(
   ],
 ```
 
-If you use the standard Flutter internationalization in your app:
+If you use the standard Flutter Intl internationalization in your app:
 
 ```dart
 MaterialApp(
-  supportedLocales: AppLocalizations.supportedLocales,
+  supportedLocales: S.delegate.supportedLocales,
   localizationsDelegates: const [
-    ...AppLocalizations.localizationsDelegates,
+    S.delegate,
     MaterialLocalizationsEo.delegate,
     CupertinoLocalizationsEo.delegate,
   ],
