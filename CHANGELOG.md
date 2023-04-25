@@ -1,5 +1,9 @@
 # Changelog
 
+## [2.0.4] - 2023-04-25
+
+* Support DateFormat and NumberFormat. Implement [#4](https://github.com/deakjahn/l10n_esperanto/issues/4).
+
 ## [2.0.3] - 2023-04-08
 
 * New strings.
