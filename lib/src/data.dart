@@ -274,7 +274,7 @@ final eoCompactNumberSymbols = CompactNumberSymbols(
     13: '00\u00A0bln',
     14: '000\u00A0bln',
   },
-  COMPACT_DECIMAL_LONG_PATTERN: {
+  COMPACT_DECIMAL_LONG_PATTERN: const {
     3: '0 mil',
     4: '00 mil',
     5: '000 mil',
@@ -288,7 +288,7 @@ final eoCompactNumberSymbols = CompactNumberSymbols(
     13: '00 biliono',
     14: '000 biliono',
   },
-  COMPACT_DECIMAL_SHORT_CURRENCY_PATTERN: {
+  COMPACT_DECIMAL_SHORT_CURRENCY_PATTERN: const {
     3: '\u00A4\u00A00m',
     4: '\u00A4\u00A000m',
     5: '\u00A4\u00A0000m',
