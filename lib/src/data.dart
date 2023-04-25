@@ -254,7 +254,7 @@ const eoNumberSymbols = NumberSymbols(
   NAN: 'NaN',
   DECIMAL_PATTERN: '#,##0.###',
   SCIENTIFIC_PATTERN: '#E0',
-  PERCENT_PATTERN: '#,##0\u00A0%',
+  PERCENT_PATTERN: '#,##0%',
   CURRENCY_PATTERN: '\u00A4\u00A0#,##0.00',
   DEF_CURRENCY_CODE: '',
 );
