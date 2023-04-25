@@ -41,3 +41,21 @@ MaterialApp(
 ```
 
 Note that the order is important, always start with the global ones.
+
+## Using DateFormat
+
+A known limitation seems to be that you can only access `DateFormat` settings of a custom locale if your app
+runs in the same locale. Make sure you also specify the locale either in the app itself or by user choice 
+
+```dart
+MaterialApp(
+  locale: const Locale('eo'),
+  supportedLocales: ...,
+  localizationsDelegates: ...,
+```
+
+if you plan to use a call like
+
+```dart
+DateFormat.MMMMEEEEd('eo').format(DateTime.now())
+```
