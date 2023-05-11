@@ -1,5 +1,9 @@
 # Changelog
 
+## [2.0.5] - 2023-05-11
+
+* Dart 3 and SDK. Implement [#5](https://github.com/deakjahn/l10n_esperanto/issues/5).
+
 ## [2.0.4] - 2023-04-25
 
 * Support DateFormat and NumberFormat. Implement [#4](https://github.com/deakjahn/l10n_esperanto/issues/4).

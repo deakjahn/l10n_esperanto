@@ -137,7 +137,7 @@ class MaterialLocalizationsEo extends GlobalMaterialLocalizations {
   String? get licensesPackageDetailTextMany => null;
 
   @override
-  String? get licensesPackageDetailTextOne => '1 licenco';
+  String? get licensesPackageDetailTextOne => r'1 licenco';
 
   @override
   String? get licensesPackageDetailTextTwo => null;
@@ -201,7 +201,7 @@ class MaterialLocalizationsEo extends GlobalMaterialLocalizations {
   String? get remainingTextFieldCharacterCountMany => null;
 
   @override
-  String? get remainingTextFieldCharacterCountOne => '1 karaktro restis';
+  String? get remainingTextFieldCharacterCountOne => r'1 karaktro restis';
 
   @override
   String? get remainingTextFieldCharacterCountTwo => null;

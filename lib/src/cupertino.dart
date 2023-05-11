@@ -97,7 +97,7 @@ class CupertinoLocalizationsEo extends GlobalCupertinoLocalizations {
   String get searchTextFieldPlaceholderLabel => 'Serĉu';
 
   @override
-  String get selectAllButtonLabel => 'Elekti ĉiujn';
+  String get selectAllButtonLabel => r'Elekti ĉiujn';
 
   @override
   String get tabSemanticsLabelRaw => r'Orelo $tabIndex de $tabCount';
@@ -109,10 +109,10 @@ class CupertinoLocalizationsEo extends GlobalCupertinoLocalizations {
   String? get timerPickerHourLabelMany => null;
 
   @override
-  String? get timerPickerHourLabelOne => 'horo';
+  String? get timerPickerHourLabelOne => r'horo';
 
   @override
-  String get timerPickerHourLabelOther => 'horo';
+  String get timerPickerHourLabelOther => r'horo';
 
   @override
   String? get timerPickerHourLabelTwo => null;
@@ -127,10 +127,10 @@ class CupertinoLocalizationsEo extends GlobalCupertinoLocalizations {
   String? get timerPickerMinuteLabelMany => null;
 
   @override
-  String? get timerPickerMinuteLabelOne => 'min.';
+  String? get timerPickerMinuteLabelOne => r'min.';
 
   @override
-  String get timerPickerMinuteLabelOther => 'min.';
+  String get timerPickerMinuteLabelOther => r'min.';
 
   @override
   String? get timerPickerMinuteLabelTwo => null;
@@ -145,10 +145,10 @@ class CupertinoLocalizationsEo extends GlobalCupertinoLocalizations {
   String? get timerPickerSecondLabelMany => null;
 
   @override
-  String? get timerPickerSecondLabelOne => 'sek.';
+  String? get timerPickerSecondLabelOne => r'sek.';
 
   @override
-  String get timerPickerSecondLabelOther => 'sek.';
+  String get timerPickerSecondLabelOther => r'sek.';
 
   @override
   String? get timerPickerSecondLabelTwo => null;
@@ -157,7 +157,7 @@ class CupertinoLocalizationsEo extends GlobalCupertinoLocalizations {
   String? get timerPickerSecondLabelZero => null;
 
   @override
-  String get todayLabel => 'Hodiaŭ';
+  String get todayLabel => r'Hodiaŭ';
 
   @override
   String datePickerMonth(int monthIndex) {

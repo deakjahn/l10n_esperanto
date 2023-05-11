@@ -1,11 +1,11 @@
 name: l10n_esperanto
 description: Esperanto localization for Flutter.
-version: 2.0.4
+version: 2.0.5
 homepage: https://github.com/deakjahn/l10n_esperanto
 
 environment:
-  sdk: ">=2.17.0 <3.0.0"
-  flutter: ">=1.17.0"
+  sdk: ">=2.18.0 <4.0.0"
+  flutter: ">=3.3.0"
 
 dependencies:
   flutter:
