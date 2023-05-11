@@ -28,7 +28,8 @@ class MaterialLocalizationsEo extends GlobalMaterialLocalizations {
     required super.twoDigitZeroPaddedFormat,
   });
 
-  static const LocalizationsDelegate<MaterialLocalizations> delegate = _MaterialLocalizationsEoDelegate();
+  static const LocalizationsDelegate<MaterialLocalizations> delegate =
+      _MaterialLocalizationsEoDelegate();
 
   @override
   String get aboutListTileTitleRaw => r'Pri $applicationName';
@@ -169,7 +170,8 @@ class MaterialLocalizationsEo extends GlobalMaterialLocalizations {
   String get openAppDrawerTooltip => r'Malfermu navigan menuon';
 
   @override
-  String get pageRowsInfoTitleApproximateRaw => r'$firstRow–$lastRow el ĉ. $rowCount';
+  String get pageRowsInfoTitleApproximateRaw =>
+      r'$firstRow–$lastRow el ĉ. $rowCount';
 
   @override
   String get pageRowsInfoTitleRaw => r'$firstRow–$lastRow el $rowCount';
@@ -205,7 +207,8 @@ class MaterialLocalizationsEo extends GlobalMaterialLocalizations {
   String? get remainingTextFieldCharacterCountTwo => null;
 
   @override
-  String get remainingTextFieldCharacterCountOther => r'$remainingCount karaktroj restis';
+  String get remainingTextFieldCharacterCountOther =>
+      r'$remainingCount karaktroj restis';
 
   @override
   String get remainingTextFieldCharacterCountZero => r'neniu karaktro restis';
@@ -253,7 +256,8 @@ class MaterialLocalizationsEo extends GlobalMaterialLocalizations {
   String? get selectedRowCountTitleMany => null;
 
   @override
-  String get selectedRowCountTitleOther => r'$selectedRowCount elementoj selektitaj';
+  String get selectedRowCountTitleOther =>
+      r'$selectedRowCount elementoj selektitaj';
 
   @override
   String? get selectedRowCountTitleOne => r'1 elemento selektita';
@@ -280,7 +284,8 @@ class MaterialLocalizationsEo extends GlobalMaterialLocalizations {
   TimeOfDayFormat get timeOfDayFormatRaw => TimeOfDayFormat.HH_colon_mm;
 
   @override
-  List<String> get narrowWeekdays => const <String>['Di', 'Lu', 'Ma', 'Me', 'Ĵa', 'Ve', 'Sa'];
+  List<String> get narrowWeekdays =>
+      const <String>['Di', 'Lu', 'Ma', 'Me', 'Ĵa', 'Ve', 'Sa'];
 
   @override
   int get firstDayOfWeekIndex => 1;
@@ -458,9 +463,25 @@ class MaterialLocalizationsEo extends GlobalMaterialLocalizations {
 
   @override
   String get menuBarMenuLabel => r'Menuo de menubreto';
+
+  @override
+  String get bottomSheetLabel => r'Malsupra folio';
+
+  @override
+  String get currentDateLabel => r'Hodiaŭ';
+
+  @override
+  String get keyboardKeyShift => r'Shift';
+
+  @override
+  String get scrimLabel => r'Fono';
+
+  @override
+  String get scrimOnTapHintRaw => r'Fermu $modalRouteName';
 }
 
-class _MaterialLocalizationsEoDelegate extends LocalizationsDelegate<MaterialLocalizations> {
+class _MaterialLocalizationsEoDelegate
+    extends LocalizationsDelegate<MaterialLocalizations> {
   const _MaterialLocalizationsEoDelegate();
 
   @override

@@ -27,7 +27,8 @@ class CupertinoLocalizationsEo extends GlobalCupertinoLocalizations {
     required super.decimalFormat,
   });
 
-  static const LocalizationsDelegate<CupertinoLocalizations> delegate = _CupertinoLocalizationsEoDelegate();
+  static const LocalizationsDelegate<CupertinoLocalizations> delegate =
+      _CupertinoLocalizationsEoDelegate();
 
   @override
   String get alertDialogLabel => r'Averto';
@@ -163,9 +164,13 @@ class CupertinoLocalizationsEo extends GlobalCupertinoLocalizations {
     final months = eoDateSymbols['STANDALONEMONTHS'] as List<String>;
     return months[monthIndex - 1];
   }
+
+  @override
+  String get noSpellCheckReplacementsLabel => r'Neniuj anstataŭaĵoj trovitaj';
 }
 
-class _CupertinoLocalizationsEoDelegate extends LocalizationsDelegate<CupertinoLocalizations> {
+class _CupertinoLocalizationsEoDelegate
+    extends LocalizationsDelegate<CupertinoLocalizations> {
   const _CupertinoLocalizationsEoDelegate();
 
   @override
