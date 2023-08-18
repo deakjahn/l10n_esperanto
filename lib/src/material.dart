@@ -478,6 +478,27 @@ class MaterialLocalizationsEo extends GlobalMaterialLocalizations {
 
   @override
   String get scrimOnTapHintRaw => r'Fermu $modalRouteName';
+
+  @override
+  String get expansionTileExpandedHint => r'duoble frapu por fermi';
+
+  @override
+  String get expansionTileCollapsedHint => r'duoble frapu por malfermi';
+
+  @override
+  String get expansionTileExpandedTapHint => r'Fermu';
+
+  @override
+  String get expansionTileCollapsedTapHint => r'Malfermu por pliaj detaloj';
+
+  @override
+  String get expandedHint => r'Fermita';
+
+  @override
+  String get collapsedHint => r'Malfermita';
+
+  @override
+  String get scanTextButtonLabel => r'Skanu tekston';
 }
 
 class _MaterialLocalizationsEoDelegate
