@@ -1,5 +1,9 @@
 # Changelog
 
+## [2.0.6] - 2023-10-08
+
+* Implement [#6](https://github.com/deakjahn/l10n_esperanto/pull/6).
+
 ## [2.0.5] - 2023-05-11
 
 * Dart 3 and SDK. Implement [#5](https://github.com/deakjahn/l10n_esperanto/issues/5).
