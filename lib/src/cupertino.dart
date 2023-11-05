@@ -85,6 +85,12 @@ class CupertinoLocalizationsEo extends GlobalCupertinoLocalizations {
   String? get datePickerMinuteSemanticsLabelZero => null;
 
   @override
+  String get lookUpButtonLabel => 'Elserĉi';
+
+  @override
+  String get menuDismissLabel => 'Forĵeti menuon';
+
+  @override
   String get modalBarrierDismissLabel => r'Forĵetu';
 
   @override
@@ -97,7 +103,13 @@ class CupertinoLocalizationsEo extends GlobalCupertinoLocalizations {
   String get searchTextFieldPlaceholderLabel => 'Serĉu';
 
   @override
+  String get searchWebButtonLabel => 'Serĉi reton';
+
+  @override
   String get selectAllButtonLabel => r'Elekti ĉiujn';
+
+  @override
+  String get shareButtonLabel => 'Kunhavigi';
 
   @override
   String get tabSemanticsLabelRaw => r'Orelo $tabIndex de $tabCount';

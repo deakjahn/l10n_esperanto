@@ -152,6 +152,12 @@ class MaterialLocalizationsEo extends GlobalMaterialLocalizations {
   String get licensesPageTitle => r'Licencoj';
 
   @override
+  String get lookUpButtonLabel => 'Elserĉi';
+
+  @override
+  String get menuDismissLabel => 'Nuligi menuon';
+
+  @override
   String get modalBarrierDismissLabel => r'Forĵetu';
 
   @override
@@ -244,6 +250,9 @@ class MaterialLocalizationsEo extends GlobalMaterialLocalizations {
   String get searchFieldLabel => r'Serĉu';
 
   @override
+  String get searchWebButtonLabel => 'Serĉi reton';
+
+  @override
   String get selectAllButtonLabel => r'ELEKTU ĈIUJN';
 
   @override
@@ -267,6 +276,9 @@ class MaterialLocalizationsEo extends GlobalMaterialLocalizations {
 
   @override
   String get selectedRowCountTitleZero => r'nenio selektita';
+
+  @override
+  String get shareButtonLabel => 'Kunhavigi';
 
   @override
   String get showAccountsLabel => r'Montru kontojn';
