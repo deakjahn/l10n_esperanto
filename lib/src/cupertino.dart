@@ -88,7 +88,7 @@ class CupertinoLocalizationsEo extends GlobalCupertinoLocalizations {
   String get lookUpButtonLabel => 'Elserĉi';
 
   @override
-  String get menuDismissLabel => 'Nuligi menuon';
+  String get menuDismissLabel => 'Forĵeti menuon';
 
   @override
   String get modalBarrierDismissLabel => r'Forĵetu';
