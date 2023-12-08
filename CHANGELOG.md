@@ -1,5 +1,9 @@
 # Changelog
 
+## [2.0.8] - 2023-12-08
+
+* Implement [#9](https://github.com/deakjahn/l10n_esperanto/pull/9).
+
 ## [2.0.7] - 2023-11-25
 
 * Implement [#8](https://github.com/deakjahn/l10n_esperanto/pull/8).
