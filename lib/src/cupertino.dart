@@ -37,10 +37,10 @@ class CupertinoLocalizationsEo extends GlobalCupertinoLocalizations {
   String get anteMeridiemAbbreviation => r'atm.';
 
   @override
-  String get copyButtonLabel => r'KOPIU';
+  String get copyButtonLabel => r'Kopii';
 
   @override
-  String get cutButtonLabel => r'ELTRANĈU';
+  String get cutButtonLabel => r'Eltranĉi';
 
   @override
   String get datePickerDateOrderString => 'ymd';
@@ -91,16 +91,16 @@ class CupertinoLocalizationsEo extends GlobalCupertinoLocalizations {
   String get menuDismissLabel => 'Forĵeti menuon';
 
   @override
-  String get modalBarrierDismissLabel => r'Forĵetu';
+  String get modalBarrierDismissLabel => r'Forĵeti';
 
   @override
-  String get pasteButtonLabel => r'ALGLUU';
+  String get pasteButtonLabel => r'Alglui';
 
   @override
   String get postMeridiemAbbreviation => r'ptm.';
 
   @override
-  String get searchTextFieldPlaceholderLabel => 'Serĉu';
+  String get searchTextFieldPlaceholderLabel => 'Serĉi';
 
   @override
   String get searchWebButtonLabel => 'Serĉi reton';

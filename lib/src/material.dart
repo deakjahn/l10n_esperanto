@@ -47,37 +47,37 @@ class MaterialLocalizationsEo extends GlobalMaterialLocalizations {
   String get calendarModeButtonLabel => r'Al kalendaro';
 
   @override
-  String get cancelButtonLabel => r'NE';
+  String get cancelButtonLabel => r'Ne';
 
   @override
-  String get closeButtonLabel => r'FERMU';
+  String get closeButtonLabel => r'Fermi';
 
   @override
-  String get closeButtonTooltip => r'Fermu';
+  String get closeButtonTooltip => r'Fermi';
 
   @override
-  String get collapsedIconTapHint => r'Malfermu';
+  String get collapsedIconTapHint => r'Malfermi';
 
   @override
-  String get continueButtonLabel => r'DAŬRIGU';
+  String get continueButtonLabel => r'Daŭrigi';
 
   @override
-  String get copyButtonLabel => r'KOPIU';
+  String get copyButtonLabel => r'Kopii';
 
   @override
-  String get cutButtonLabel => r'ELTRANĈU';
+  String get cutButtonLabel => r'Eltranĉi';
 
   @override
   String get dateHelpText => r'yyyy/mm/dd';
 
   @override
-  String get dateInputLabel => r'Tajpu daton';
+  String get dateInputLabel => r'Tajpi daton';
 
   @override
   String get dateOutOfRangeLabel => r'Ekster intervalo';
 
   @override
-  String get datePickerHelpText => r'ELEKTU DATON';
+  String get datePickerHelpText => r'Elekti daton';
 
   @override
   String get dateRangeEndDateSemanticLabelRaw => r'Findato $fullDate';
@@ -86,7 +86,7 @@ class MaterialLocalizationsEo extends GlobalMaterialLocalizations {
   String get dateRangeEndLabel => r'Findato';
 
   @override
-  String get dateRangePickerHelpText => r'ELEKTU INTERVALON';
+  String get dateRangePickerHelpText => r'Elekti intervalon';
 
   @override
   String get dateRangeStartDateSemanticLabelRaw => r'Komencdato $fullDate';
@@ -98,7 +98,7 @@ class MaterialLocalizationsEo extends GlobalMaterialLocalizations {
   String get dateSeparator => r'/';
 
   @override
-  String get deleteButtonTooltip => r'Forigu';
+  String get deleteButtonTooltip => r'Forigi';
 
   @override
   String get dialModeButtonLabel => r'???';
@@ -110,16 +110,16 @@ class MaterialLocalizationsEo extends GlobalMaterialLocalizations {
   String get drawerLabel => r'Naviga menu';
 
   @override
-  String get expandedIconTapHint => r'Fermu';
+  String get expandedIconTapHint => r'Fermi';
 
   @override
-  String get hideAccountsLabel => r'Kaŝu kontojn';
+  String get hideAccountsLabel => r'Kaŝi kontojn';
 
   @override
-  String get inputDateModeButtonLabel => r'Ŝanĝu al data';
+  String get inputDateModeButtonLabel => r'Ŝanĝi al data';
 
   @override
-  String get inputTimeModeButtonLabel => r'Ŝanĝu al tempo';
+  String get inputTimeModeButtonLabel => r'Ŝanĝi al tempo';
 
   @override
   String get invalidDateFormatLabel => r'Nevalida formato';
@@ -158,7 +158,7 @@ class MaterialLocalizationsEo extends GlobalMaterialLocalizations {
   String get menuDismissLabel => 'Nuligi menuon';
 
   @override
-  String get modalBarrierDismissLabel => r'Forĵetu';
+  String get modalBarrierDismissLabel => r'Forĵeti';
 
   @override
   String get moreButtonTooltip => r'Pliaj';
@@ -173,7 +173,7 @@ class MaterialLocalizationsEo extends GlobalMaterialLocalizations {
   String get okButtonLabel => r'En ordo';
 
   @override
-  String get openAppDrawerTooltip => r'Malfermu navigan menuon';
+  String get openAppDrawerTooltip => r'Malfermi navigan menuon';
 
   @override
   String get pageRowsInfoTitleApproximateRaw =>
@@ -183,7 +183,7 @@ class MaterialLocalizationsEo extends GlobalMaterialLocalizations {
   String get pageRowsInfoTitleRaw => r'$firstRow–$lastRow el $rowCount';
 
   @override
-  String get pasteButtonLabel => r'ALGLUU';
+  String get pasteButtonLabel => r'Alglui';
 
   @override
   String get popupMenuLabel => r'???';
@@ -198,7 +198,7 @@ class MaterialLocalizationsEo extends GlobalMaterialLocalizations {
   String get previousPageTooltip => r'Antaŭa paĝo';
 
   @override
-  String get refreshIndicatorSemanticLabel => r'Refreŝigu';
+  String get refreshIndicatorSemanticLabel => r'Refreŝigi';
 
   @override
   String? get remainingTextFieldCharacterCountFew => null;
@@ -220,43 +220,43 @@ class MaterialLocalizationsEo extends GlobalMaterialLocalizations {
   String get remainingTextFieldCharacterCountZero => r'neniu karaktro restis';
 
   @override
-  String get reorderItemDown => r'Reordigu suben';
+  String get reorderItemDown => r'Reordigi suben';
 
   @override
-  String get reorderItemLeft => r'Reordigu maldekstren';
+  String get reorderItemLeft => r'Reordigi maldekstren';
 
   @override
-  String get reorderItemRight => r'Reordigu dekstren';
+  String get reorderItemRight => r'Reordigi dekstren';
 
   @override
-  String get reorderItemToEnd => r'Reordigu al fino';
+  String get reorderItemToEnd => r'Reordigi al fino';
 
   @override
-  String get reorderItemToStart => r'Reordigu al komenco';
+  String get reorderItemToStart => r'Reordigi al komenco';
 
   @override
-  String get reorderItemUp => r'Reordigu supren';
+  String get reorderItemUp => r'Reordigi supren';
 
   @override
   String get rowsPerPageTitle => r'Vicoj pro paĝo';
 
   @override
-  String get saveButtonLabel => r'KONSERVU';
+  String get saveButtonLabel => r'Konservi';
 
   @override
   ScriptCategory get scriptCategory => ScriptCategory.englishLike;
 
   @override
-  String get searchFieldLabel => r'Serĉu';
+  String get searchFieldLabel => r'Serĉi';
 
   @override
   String get searchWebButtonLabel => 'Serĉi reton';
 
   @override
-  String get selectAllButtonLabel => r'ELEKTU ĈIUJN';
+  String get selectAllButtonLabel => r'Elekti ĉiujn';
 
   @override
-  String get selectYearSemanticsLabel => r'Elektu jaron';
+  String get selectYearSemanticsLabel => r'Elekti jaron';
 
   @override
   String? get selectedRowCountTitleFew => null;
@@ -281,10 +281,10 @@ class MaterialLocalizationsEo extends GlobalMaterialLocalizations {
   String get shareButtonLabel => 'Kunhavigi';
 
   @override
-  String get showAccountsLabel => r'Montru kontojn';
+  String get showAccountsLabel => r'Montri kontojn';
 
   @override
-  String get showMenuTooltip => r'Montru menuon';
+  String get showMenuTooltip => r'Montri menuon';
 
   @override
   String get signedInLabel => r'Ensalutinte';
@@ -303,7 +303,7 @@ class MaterialLocalizationsEo extends GlobalMaterialLocalizations {
   int get firstDayOfWeekIndex => 1;
 
   @override
-  String get timePickerDialHelpText => r'ELEKTU TEMPON';
+  String get timePickerDialHelpText => r'Elekti tempon';
 
   @override
   String get timePickerHourLabel => r'Horo';
@@ -327,7 +327,7 @@ class MaterialLocalizationsEo extends GlobalMaterialLocalizations {
   String get unspecifiedDateRange => r'Datointervalo';
 
   @override
-  String get viewLicensesButtonLabel => r'LEGU LICENCOJN';
+  String get viewLicensesButtonLabel => r'Legi licencojn';
 
   @override
   String get firstPageTooltip => r'Unua paĝo';
@@ -468,7 +468,7 @@ class MaterialLocalizationsEo extends GlobalMaterialLocalizations {
   String get keyboardKeyScrollLock => r'Scroll Lock';
 
   @override
-  String get keyboardKeySelect => r'Elektu';
+  String get keyboardKeySelect => r'Elekti';
 
   @override
   String get keyboardKeySpace => r'Spaco';
@@ -489,19 +489,19 @@ class MaterialLocalizationsEo extends GlobalMaterialLocalizations {
   String get scrimLabel => r'Fono';
 
   @override
-  String get scrimOnTapHintRaw => r'Fermu $modalRouteName';
+  String get scrimOnTapHintRaw => r'Fermi $modalRouteName';
 
   @override
-  String get expansionTileExpandedHint => r'duoble frapu por fermi';
+  String get expansionTileExpandedHint => r'duoble tuŝetu por fermi';
 
   @override
-  String get expansionTileCollapsedHint => r'duoble frapu por malfermi';
+  String get expansionTileCollapsedHint => r'duoble tuŝetu por malfermi';
 
   @override
-  String get expansionTileExpandedTapHint => r'Fermu';
+  String get expansionTileExpandedTapHint => r'Fermi';
 
   @override
-  String get expansionTileCollapsedTapHint => r'Malfermu por pliaj detaloj';
+  String get expansionTileCollapsedTapHint => r'Malfermi por pliaj detaloj';
 
   @override
   String get expandedHint => r'Fermita';
@@ -510,7 +510,7 @@ class MaterialLocalizationsEo extends GlobalMaterialLocalizations {
   String get collapsedHint => r'Malfermita';
 
   @override
-  String get scanTextButtonLabel => r'Skanu tekston';
+  String get scanTextButtonLabel => r'Skani tekston';
 }
 
 class _MaterialLocalizationsEoDelegate
