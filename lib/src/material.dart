@@ -170,7 +170,7 @@ class MaterialLocalizationsEo extends GlobalMaterialLocalizations {
   String get nextPageTooltip => r'Sekva paĝo';
 
   @override
-  String get okButtonLabel => r'Okej';
+  String get okButtonLabel => r'En ordo';
 
   @override
   String get openAppDrawerTooltip => r'Malfermi navigan menuon';
