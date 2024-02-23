@@ -97,6 +97,9 @@ class CupertinoLocalizationsEo extends GlobalCupertinoLocalizations {
   String get pasteButtonLabel => r'Alglui';
 
   @override
+  String get clearButtonLabel => r'Forviŝi';
+
+  @override
   String get postMeridiemAbbreviation => r'ptm.';
 
   @override

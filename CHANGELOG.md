@@ -1,5 +1,9 @@
 # Changelog
 
+## [2.0.9] - 2024-02-23
+
+* New strings.
+
 ## [2.0.8] - 2023-12-08
 
 * Implement [#9](https://github.com/deakjahn/l10n_esperanto/pull/9).
