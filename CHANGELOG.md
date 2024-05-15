@@ -1,5 +1,9 @@
 # Changelog
 
+## [2.0.10] - 2025-05-15
+
+* Upgrade dependent versions.
+
 ## [2.0.9] - 2024-02-23
 
 * New strings.
