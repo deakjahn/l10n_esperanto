@@ -511,6 +511,12 @@ class MaterialLocalizationsEo extends GlobalMaterialLocalizations {
 
   @override
   String get scanTextButtonLabel => r'Skani tekston';
+
+  @override
+  String get clearButtonTooltip => r'Forviŝi';
+
+  @override
+  String get selectedDateLabel => r'Elektita dato';
 }
 
 class _MaterialLocalizationsEoDelegate
