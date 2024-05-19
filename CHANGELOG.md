@@ -2,7 +2,7 @@
 
 ## [2.0.11] - 2024-05-19
 
-* New strings.
+* New strings. Implement [#10](https://github.com/deakjahn/l10n_esperanto/issues/10).
 
 ## [2.0.10] - 2024-05-15
 
