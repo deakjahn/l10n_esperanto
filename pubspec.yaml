@@ -23,3 +23,12 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+
+funding:
+  - https://buymeacoffee.com/deakjahn
+
+topics:
+  - flutter
+  - l10n
+  - esperanto
