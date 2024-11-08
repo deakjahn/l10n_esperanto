@@ -59,3 +59,9 @@ if you plan to use a call like
 ```dart
 DateFormat.MMMMEEEEd('eo').format(DateTime.now())
 ```
+
+# Support
+
+If you like this package, please consider supporting it.
+
+[![buy me a book](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20book&emoji=📚&slug=deakjahn&button_colour=FF8838&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=ffffff')](https://www.buymeacoffee.com/deakjahn)
