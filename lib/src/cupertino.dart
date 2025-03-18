@@ -32,6 +32,12 @@ class CupertinoLocalizationsEo extends GlobalCupertinoLocalizations {
       _CupertinoLocalizationsEoDelegate();
 
   @override
+  String get backButtonLabel => r'Reiru';
+
+  @override
+  String get cancelButtonLabel => r'Ne';
+
+  @override
   String get alertDialogLabel => r'Averto';
 
   @override
@@ -222,3 +228,4 @@ class _CupertinoLocalizationsEoDelegate
   @override
   bool shouldReload(_CupertinoLocalizationsEoDelegate old) => false;
 }
+
