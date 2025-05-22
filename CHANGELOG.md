@@ -1,5 +1,9 @@
 # Changelog
 
+## [2.0.13] - 2025-05-22
+
+* Upgrade intl. Implement [#13](https://github.com/deakjahn/l10n_esperanto/pull/13). 
+
 ## [2.0.12] - 2024-12-12
 
 * Ctor change. Fix [#11](https://github.com/deakjahn/l10n_esperanto/issues/11).
