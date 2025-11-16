@@ -189,6 +189,24 @@ class CupertinoLocalizationsEo extends GlobalCupertinoLocalizations {
 
   @override
   String get noSpellCheckReplacementsLabel => r'Neniuj anstataŭaĵoj trovitaj';
+
+  @override
+  String get collapsedHint => 'Montrita';
+
+  @override
+  String get expandedHint => 'Malmontrita';
+
+  @override
+  String get expansionTileCollapsedHint => 'dufrapu por montri';
+
+  @override
+  String get expansionTileCollapsedTapHint => 'Montru detalojn';
+
+  @override
+  String get expansionTileExpandedHint => 'dufrapu por malmontri';
+
+  @override
+  String get expansionTileExpandedTapHint => 'Malmontru';
 }
 
 class _CupertinoLocalizationsEoDelegate
@@ -228,4 +246,3 @@ class _CupertinoLocalizationsEoDelegate
   @override
   bool shouldReload(_CupertinoLocalizationsEoDelegate old) => false;
 }
-

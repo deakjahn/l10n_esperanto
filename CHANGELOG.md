@@ -1,5 +1,9 @@
 # Changelog
 
+## [2.0.14] - 2025-11-16
+
+* New strings. Implement [#14](https://github.com/deakjahn/l10n_esperanto/pull/14).
+
 ## [2.0.13] - 2025-05-22
 
 * Upgrade intl. Implement [#13](https://github.com/deakjahn/l10n_esperanto/pull/13). 
