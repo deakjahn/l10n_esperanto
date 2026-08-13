@@ -1,5 +1,14 @@
 # Changelog
 
+## [3.0.0] - 2026-08-13
+
+* **Breaking:** localize the `material_ui` and `cupertino_ui` packages instead of the Material and
+  Cupertino libraries of the Flutter SDK. `MaterialLocalizationsEo` and `CupertinoLocalizationsEo`
+  now extend the `GlobalMaterialLocalizations` and `GlobalCupertinoLocalizations` of those packages,
+  so they satisfy the `MaterialLocalizations` and `CupertinoLocalizations` types that `material_ui`
+  and `cupertino_ui` widgets look up. Apps still using the SDK libraries should stay on 2.x.
+* `flutter_localizations` is no longer a dependency; `material_ui` and `cupertino_ui` are.
+
 ## [2.0.14] - 2025-11-16
 
 * New strings. Implement [#14](https://github.com/deakjahn/l10n_esperanto/pull/14).

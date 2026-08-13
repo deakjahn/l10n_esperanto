@@ -4,6 +4,8 @@
 
 Esperanto localization for Flutter. This will only localize the basic strings (just like with all the other languages supported by Flutter) and the various date and time formats of the [`intl`](https://pub.dev/packages/intl) package. Your own app strings have to be handled by your own localization, as per normal.
 
+Since version 3.0.0, this package localizes the [`material_ui`](https://pub.dev/packages/material_ui) and [`cupertino_ui`](https://pub.dev/packages/cupertino_ui) packages, which is where the Material and Cupertino libraries now live. Use version 2.x if your app still uses the Material and Cupertino libraries bundled with the Flutter SDK, localized by `flutter_localizations`.
+
 Otherwise, it will work just as expected for apps. Although no Android device has Esperanto as a system language, so the locale won't be selected automatically, you can use it as one of the languages available in your app. You can even make it the default language (not using English at all) and all devices will show your app in Esperanto, unless another language is selected.
 
 ## Getting Started
@@ -17,13 +19,13 @@ MaterialApp(
     const Locale('eo'),
   ],
   localizationsDelegates: const [
-    GlobalMaterialLocalizations.delegate,
-    GlobalCupertinoLocalizations.delegate,
-    GlobalWidgetsLocalizations.delegate,
+    ...GlobalMaterialLocalizations.delegates,
     MaterialLocalizationsEo.delegate,
     CupertinoLocalizationsEo.delegate,
   ],
 ```
+
+where `GlobalMaterialLocalizations` comes from `material_ui`, and its `delegates` bundle the Material, Cupertino and Widgets global delegates.
 
 If you use the standard Flutter Intl internationalization in your app:
 
