@@ -2,7 +2,9 @@
 
 ## [3.0.0] - 2026-08-13
 
-* **Breaking:** localize the `material_ui` and `cupertino_ui` packages instead of the Material and
+* **Breaking:**
+* Implement [#15](https://github.com/deakjahn/l10n_esperanto/pull/15).
+* Localize the `material_ui` and `cupertino_ui` packages instead of the Material and
   Cupertino libraries of the Flutter SDK. `MaterialLocalizationsEo` and `CupertinoLocalizationsEo`
   now extend the `GlobalMaterialLocalizations` and `GlobalCupertinoLocalizations` of those packages,
   so they satisfy the `MaterialLocalizations` and `CupertinoLocalizations` types that `material_ui`
