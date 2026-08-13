@@ -3,13 +3,12 @@ library l10n_esperanto;
 import 'dart:async';
 
 import 'package:flutter/foundation.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:intl/date_symbol_data_custom.dart' as date_symbol;
 import 'package:intl/date_symbols.dart' as intl;
 import 'package:intl/intl.dart' as intl;
 import 'package:intl/number_symbols_data.dart' as date_symbol;
 import 'package:l10n_esperanto/src/data.dart';
+import 'package:material_ui/material_ui.dart';
 
 class MaterialLocalizationsEo extends GlobalMaterialLocalizations {
   /// Create an instance of the translation bundle for Esperanto.
